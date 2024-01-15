@@ -44,7 +44,7 @@
     "web-vitals": "^3.5.0"
   },
   "scripts": {
-    "start": "npx msw init ./public;REACT_APP_USE_MOCK=true HTTPS=true SSL_CRT_FILE=localhost.pem SSL_KEY_FILE=localhost-key.pem react-scripts start",
+    "start": "npx msw init ./public;REACT_APP_USE_MOCK=true HTTPS=true react-scripts start",
     "build": "react-scripts build",
     "lint": "eslint --ext .ts,.tsx .",
     "test": "jest --watchAll=false --coverage --testResultsProcessor jest-sonar-reporter",
